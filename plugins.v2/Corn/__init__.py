@@ -14,8 +14,8 @@ class CronExpressionGenerator(_PluginBase):
     plugin_desc = "自动生成 Cron 表达式并定期触发任务。"
     plugin_icon = "cron_icon.png"
     plugin_version = "1.0"
-    plugin_author = "Your Name"
-    author_url = "https://github.com/yourusername"
+    plugin_author = "DongShull"
+    author_url = "https://github.com/dongshull/MoviePilot-Plugins"
     plugin_config_prefix = "cron_gen_"
     plugin_order = 10
     auth_level = 1
