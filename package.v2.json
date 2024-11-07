@@ -1,0 +1,14 @@
+{
+    "SiteStatistic": {
+        "name": "corn生成器",
+        "description": "自动生成所需要的corn表达式。",
+        "labels": "工具",
+        "version": "1.0",
+        "icon": "statistic.png",
+        "author": "DongShull",
+        "level": 2,
+        "history": {
+            "v1.0": "自动生成5位corn 表达式"
+        }
+    }
+}
