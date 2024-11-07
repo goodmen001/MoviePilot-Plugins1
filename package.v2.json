@@ -1,5 +1,5 @@
 {
-    "SiteStatistic": {
+    "Corn": {
         "name": "corn生成器",
         "description": "自动生成所需要的corn表达式。",
         "labels": "工具",
