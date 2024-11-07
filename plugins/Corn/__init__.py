@@ -9,13 +9,13 @@ from app.schemas import NotificationType
 from app.log import logger
 
 class CronExpressionGenerator(_PluginBase):
-    # 插件基础信息
+    # 插件基本信息
     plugin_name = "Cron 表达式生成器"
     plugin_desc = "自动生成 Cron 表达式并定期触发任务。"
     plugin_icon = "cron_icon.png"
     plugin_version = "1.0"
-    plugin_author = "DongShull"
-    author_url = "https://github.com/dongshull/MoviePilot-Pluginse"
+    plugin_author = "Your Name"
+    author_url = "https://github.com/yourusername"
     plugin_config_prefix = "cron_gen_"
     plugin_order = 10
     auth_level = 1
@@ -88,13 +88,13 @@ class CronExpressionGenerator(_PluginBase):
         """
         获取插件的 API 接口
         """
-        return [{
+        return [({
             "path": "/generate-cron",
             "endpoint": self.api_generate_cron,
             "methods": ["GET"],
             "summary": "手动触发 Cron 表达式生成",
             "description": "手动调用 Cron 表达式生成方法，触发生成任务"
-        }]
+        })]
 
     def api_generate_cron(self, apikey: str):
         """
@@ -183,3 +183,4 @@ class CronExpressionGenerator(_PluginBase):
                 self._scheduler = None
         except Exception as e:
             logger.error("停止 Cron 表达式生成插件失败：%s" % str(e))
+
