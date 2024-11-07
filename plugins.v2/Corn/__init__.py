@@ -11,7 +11,7 @@ from app.log import logger
 class CronExpressionGenerator(_PluginBase):
     # 插件基本信息
     plugin_name = "Cron 表达式生成器"
-    plugin_desc = "自动生成 Cron 表达式并定期触发任务。"
+    plugin_desc = "自动生成 Cron 表达式。"
     plugin_icon = "cron_icon.png"
     plugin_version = "1.0"
     plugin_author = "Your Name"
