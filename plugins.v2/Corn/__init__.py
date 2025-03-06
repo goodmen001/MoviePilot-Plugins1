@@ -15,7 +15,7 @@ class CronExpressionGenerator(_PluginBase):
     plugin_icon = "cron_icon.png"
     plugin_version = "1.0"
     plugin_author = "DongShull"
-    author_url = "https://github.com/yourusername"
+    author_url = "https://github.com/dongshull"
     plugin_config_prefix = "cron_gen_"
     plugin_order = 10
     auth_level = 1
